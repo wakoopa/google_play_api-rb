@@ -8,9 +8,6 @@ require 'google_play_api/proto/request_context'
 module GooglePlayApi
   module Proto
     class Request < ::ProtocolBuffers::Message
-      # forward declarations
-      class RequestGroup < ::ProtocolBuffers::Message; end
-
       # nested messages
       class RequestGroup < ::ProtocolBuffers::Message
         optional AppsRequest, :appsRequest, 4

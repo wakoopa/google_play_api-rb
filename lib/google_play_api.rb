@@ -24,4 +24,5 @@ require 'httparty'
 
 module GooglePlayApi
   class LoginFailedError < StandardError; end
+  class NotLoggedInError < StandardError; end
 end

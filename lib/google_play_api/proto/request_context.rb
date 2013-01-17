@@ -2,7 +2,7 @@ module GooglePlayApi
   module Proto
     class RequestContext < ::ProtocolBuffers::Message
       required :string, :authSubToken, 1
-      required :int32, :unknown1, 2
+      required :int32, :isSecure, 2
       required :int32, :version, 3
       required :string, :androidId, 4
       optional :string, :deviceAndSdkVersion, 5
