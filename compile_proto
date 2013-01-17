@@ -1,0 +1,3 @@
+#!/bin/sh
+ruby-protoc market.proto -olib/google_play_api
+mv lib/google_play_api/market.pb.rb lib/google_play_api/market_proto.rb
