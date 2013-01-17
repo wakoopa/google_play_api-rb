@@ -1,4 +1,6 @@
-google_play_api-rb
-==================
+Google Play Store API for Ruby
+==============================
 
 API for Google Play in Ruby
+
+*Work in progress*
