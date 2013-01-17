@@ -40,11 +40,15 @@ module GooglePlayApi
       @loggedin
     end
 
-    def execute(request)
+    def execute(query)
       # only do request when successfully logged in
       if loggedin?
+        # create new request
+        request = GooglePlayApi::Proto::Request.new
         request.context = context
-        p request.context
+
+        # set request group to request
+        request.requestgroup << query.request_group
 
         HTTParty.post(API_URL, body: api_data(request), headers: api_headers)
       else

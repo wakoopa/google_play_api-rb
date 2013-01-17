@@ -19,6 +19,8 @@ require 'google_play_api/proto/sub_categories_request'
 require 'google_play_api/proto/sub_categories_response'
 
 require 'google_play_api/market_session'
+require 'google_play_api/query'
+require 'google_play_api/search_app_query'
 
 require 'httparty'
 
