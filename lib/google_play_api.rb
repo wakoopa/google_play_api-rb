@@ -18,5 +18,10 @@ require 'google_play_api/proto/response_context'
 require 'google_play_api/proto/sub_categories_request'
 require 'google_play_api/proto/sub_categories_response'
 
+require 'google_play_api/market_session'
+
+require 'httparty'
+
 module GooglePlayApi
+  class LoginFailedError < StandardError; end
 end

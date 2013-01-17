@@ -7,6 +7,11 @@ GEM
   remote: http://rubygems.org/
   specs:
     diff-lcs (1.1.3)
+    httparty (0.10.0)
+      multi_json (~> 1.0)
+      multi_xml
+    multi_json (1.5.0)
+    multi_xml (0.5.2)
     rspec (2.12.0)
       rspec-core (~> 2.12.0)
       rspec-expectations (~> 2.12.0)
@@ -22,5 +27,6 @@ PLATFORMS
 
 DEPENDENCIES
   google_play_api!
+  httparty
   rspec
   ruby-protocol-buffers
