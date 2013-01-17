@@ -21,7 +21,7 @@ module GooglePlayApi
         'Email'       => username,
         'Passwd'      => password,
         'service'     => SERVICE,
-        'source'      => 'wakoopa-api-1',
+        'source'      => 'google_play_api-rb',
         'accountType' => ACCOUNT_TYPE_HOSTED_OR_GOOGLE
       }
 
